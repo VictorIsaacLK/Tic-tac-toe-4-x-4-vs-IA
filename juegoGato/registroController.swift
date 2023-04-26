@@ -53,9 +53,10 @@ class registroController: UIViewController, UITextFieldDelegate {
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "nombreAPantallaJuegoGatito" {
+        if segue.identifier == "menuAGatito" {
             let vc = segue.destination as! JuegoGatoViewController
             vc.nombre = txfNombre.text
+           
         }
     }
 }

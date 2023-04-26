@@ -8,12 +8,15 @@
 import UIKit
 import AVFoundation
 
-class JuegoGatoViewController: UIViewController {
+class JuegoGatoViewController: UIViewController
+{
+    
     var puntos = 150
     var tiempoRestante = 5 * 60 // 5 minutos en segundos
     var timer: Timer?
     var player: AVAudioPlayer?
-    var nombre:String!
+    var nombre: String?
+   
     @IBOutlet weak var lblPuntos: UILabel!
     @IBOutlet weak var lblTimer: UILabel!
     @IBOutlet var btnTablero: [UIButton]!
@@ -40,6 +43,10 @@ class JuegoGatoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+        
+        
+        
         self.playSong()
     }
     
@@ -81,6 +88,9 @@ class JuegoGatoViewController: UIViewController {
                 if lblTurno.text=="Ganó O"{
                     self.stopSong()
                     self.ganadorSong()
+                    goToMenuAGatito()
+                    
+                   
                 }
                 else if lblTurno.text=="Ganó X"{
                     self.stopSong()
@@ -433,5 +443,18 @@ class JuegoGatoViewController: UIViewController {
         startTimer()
         
     }
-    
+   
+
+    func goToMenuAGatito() {
+        performSegue(withIdentifier: "datosganadores", sender: self)
+        
+    }
+   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "datosganadores" {
+            let vc = segue.destination as! puntuacionviewController
+            vc.nombre = nombre
+            vc.puntos = String(puntos)
+            
+        }
+    }
 }
