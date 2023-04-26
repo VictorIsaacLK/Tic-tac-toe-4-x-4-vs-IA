@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D3D68C629D7752700CBF49F /* gato.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3D68C529D7752700CBF49F /* gato.png */; };
+		0D3D68C829D7769A00CBF49F /* sunset.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3D68C729D7769A00CBF49F /* sunset.png */; };
+		0D3D68CA29D77DE200CBF49F /* back.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0D3D68C929D77DE200CBF49F /* back.jpeg */; };
+		8836CE2129F0B64400E34AF8 /* registroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8836CE2029F0B64400E34AF8 /* registroController.swift */; };
+		8836CE2329F0B97100E34AF8 /* puntuacionviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8836CE2229F0B97100E34AF8 /* puntuacionviewController.swift */; };
+		889BBBC029ED967F00AFC03B /* audios de juego in Resources */ = {isa = PBXBuildFile; fileRef = 889BBBBF29ED967F00AFC03B /* audios de juego */; };
+		E83FE7AB29B691F0003C3081 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83FE7AA29B691F0003C3081 /* AppDelegate.swift */; };
+		E83FE7AD29B691F0003C3081 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83FE7AC29B691F0003C3081 /* SceneDelegate.swift */; };
+		E83FE7AF29B691F0003C3081 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83FE7AE29B691F0003C3081 /* ViewController.swift */; };
+		E83FE7B229B691F0003C3081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E83FE7B029B691F0003C3081 /* Main.storyboard */; };
+		E83FE7B429B691FC003C3081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E83FE7B329B691FC003C3081 /* Assets.xcassets */; };
+		E83FE7B729B691FC003C3081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E83FE7B529B691FC003C3081 /* LaunchScreen.storyboard */; };
+		E8A08B3929C2796300F17FD9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A08B3829C2796300F17FD9 /* MenuViewController.swift */; };
+		E8A08B3C29C279B300F17FD9 /* JuegoGatoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A08B3B29C279B300F17FD9 /* JuegoGatoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D3D68C529D7752700CBF49F /* gato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gato.png; sourceTree = "<group>"; };
+		0D3D68C729D7769A00CBF49F /* sunset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunset.png; sourceTree = "<group>"; };
+		0D3D68C929D77DE200CBF49F /* back.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpeg; sourceTree = "<group>"; };
+		8836CE2029F0B64400E34AF8 /* registroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registroController.swift; sourceTree = "<group>"; };
+		8836CE2229F0B97100E34AF8 /* puntuacionviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = puntuacionviewController.swift; sourceTree = "<group>"; };
+		889BBBBF29ED967F00AFC03B /* audios de juego */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "audios de juego"; sourceTree = "<group>"; };
+		E83FE7A729B691F0003C3081 /* juegoGato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = juegoGato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E83FE7AA29B691F0003C3081 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E83FE7AC29B691F0003C3081 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E83FE7AE29B691F0003C3081 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E83FE7B129B691F0003C3081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E83FE7B329B691FC003C3081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E83FE7B629B691FC003C3081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E83FE7B829B691FC003C3081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8A08B3829C2796300F17FD9 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		E8A08B3B29C279B300F17FD9 /* JuegoGatoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegoGatoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E83FE7A429B691F0003C3081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E83FE79E29B691F0003C3081 = {
+			isa = PBXGroup;
+			children = (
+				E83FE7A929B691F0003C3081 /* juegoGato */,
+				E83FE7A829B691F0003C3081 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E83FE7A829B691F0003C3081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E83FE7A729B691F0003C3081 /* juegoGato.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E83FE7A929B691F0003C3081 /* juegoGato */ = {
+			isa = PBXGroup;
+			children = (
+				E83FE7AA29B691F0003C3081 /* AppDelegate.swift */,
+				E83FE7AC29B691F0003C3081 /* SceneDelegate.swift */,
+				E83FE7AE29B691F0003C3081 /* ViewController.swift */,
+				8836CE2229F0B97100E34AF8 /* puntuacionviewController.swift */,
+				8836CE2029F0B64400E34AF8 /* registroController.swift */,
+				E8A08B3829C2796300F17FD9 /* MenuViewController.swift */,
+				E8A08B3B29C279B300F17FD9 /* JuegoGatoViewController.swift */,
+				E83FE7B029B691F0003C3081 /* Main.storyboard */,
+				889BBBBF29ED967F00AFC03B /* audios de juego */,
+				0D3D68C929D77DE200CBF49F /* back.jpeg */,
+				0D3D68C529D7752700CBF49F /* gato.png */,
+				0D3D68C729D7769A00CBF49F /* sunset.png */,
+				E83FE7B329B691FC003C3081 /* Assets.xcassets */,
+				E83FE7B529B691FC003C3081 /* LaunchScreen.storyboard */,
+				E83FE7B829B691FC003C3081 /* Info.plist */,
+			);
+			path = juegoGato;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E83FE7A629B691F0003C3081 /* juegoGato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E83FE7BB29B691FC003C3081 /* Build configuration list for PBXNativeTarget "juegoGato" */;
+			buildPhases = (
+				E83FE7A329B691F0003C3081 /* Sources */,
+				E83FE7A429B691F0003C3081 /* Frameworks */,
+				E83FE7A529B691F0003C3081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = juegoGato;
+			productName = juegoGato;
+			productReference = E83FE7A729B691F0003C3081 /* juegoGato.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E83FE79F29B691F0003C3081 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E83FE7A629B691F0003C3081 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = E83FE7A229B691F0003C3081 /* Build configuration list for PBXProject "juegoGato" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E83FE79E29B691F0003C3081;
+			productRefGroup = E83FE7A829B691F0003C3081 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E83FE7A629B691F0003C3081 /* juegoGato */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E83FE7A529B691F0003C3081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889BBBC029ED967F00AFC03B /* audios de juego in Resources */,
+				0D3D68CA29D77DE200CBF49F /* back.jpeg in Resources */,
+				E83FE7B729B691FC003C3081 /* LaunchScreen.storyboard in Resources */,
+				E83FE7B429B691FC003C3081 /* Assets.xcassets in Resources */,
+				0D3D68C829D7769A00CBF49F /* sunset.png in Resources */,
+				0D3D68C629D7752700CBF49F /* gato.png in Resources */,
+				E83FE7B229B691F0003C3081 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E83FE7A329B691F0003C3081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A08B3C29C279B300F17FD9 /* JuegoGatoViewController.swift in Sources */,
+				8836CE2329F0B97100E34AF8 /* puntuacionviewController.swift in Sources */,
+				8836CE2129F0B64400E34AF8 /* registroController.swift in Sources */,
+				E83FE7AF29B691F0003C3081 /* ViewController.swift in Sources */,
+				E8A08B3929C2796300F17FD9 /* MenuViewController.swift in Sources */,
+				E83FE7AB29B691F0003C3081 /* AppDelegate.swift in Sources */,
+				E83FE7AD29B691F0003C3081 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E83FE7B029B691F0003C3081 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E83FE7B129B691F0003C3081 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E83FE7B529B691FC003C3081 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E83FE7B629B691FC003C3081 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E83FE7B929B691FC003C3081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E83FE7BA29B691FC003C3081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E83FE7BC29B691FC003C3081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = juegoGato/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UTT.juegoGato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E83FE7BD29B691FC003C3081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = juegoGato/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UTT.juegoGato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E83FE7A229B691F0003C3081 /* Build configuration list for PBXProject "juegoGato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E83FE7B929B691FC003C3081 /* Debug */,
+				E83FE7BA29B691FC003C3081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E83FE7BB29B691FC003C3081 /* Build configuration list for PBXNativeTarget "juegoGato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E83FE7BC29B691FC003C3081 /* Debug */,
+				E83FE7BD29B691FC003C3081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E83FE79F29B691F0003C3081 /* Project object */;
+}
